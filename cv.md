@@ -15,3 +15,23 @@ My goal is to move forward, it so happened that working as a civil engineer over
 * HTML5, CSS, JavaScript Basics
 * Git, GitHub
 * VS Code 
+
+## Code example:
+```
+function solution(number){
+  let sum = 0;
+  for (let i=1; i < number; i++)
+  if ((i% 3==0) || (i%5==0)) {
+    sum +=i; 
+  }
+  return sum;
+}
+```
+## Education:
+* University: Belarusian National Technical University, civil engineer
+* Courses:
+  * HTML&CSS and JavaScript by [Alexandr Luschenko](https://itgid.info/) (in progress)
+  ![certificate](/html.png)
+
+## English:
+English level - A2
