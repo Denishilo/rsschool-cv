@@ -8,6 +8,9 @@
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/ico.ico" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <div class="header">
@@ -15,54 +18,56 @@
         <div class="header__nav">
             <nav class="navigation">
                 <ul class="navigation_list">
-                    <li>Contacts</li>
-                    <li>About myself</li>
-                    <li>Skills</li>
-                    <li>Code</li>
-                    <li>Education</li>
-                    <li>English</li>
+                    <li class="contacts_item" > <a class="header_link" href="#">Contacts</a></li>
+                    <li class="contacts_item"><a class="header_link" href="#">About myself</a></li>
+                    <li class="contacts_item"><a class="header_link" href="#">Skills</a></li>
+                    <li class="contacts_item"><a class="header_link" href="#">Code</a></li>
+                    <li class="contacts_item"><a class="header_link" href="#">Education</a></li>
+                    <li class="contacts_item"><a class="header_link" href="#">English</a></li>
                 </ul>
             </nav>
         </div>
     </div>
 </div>
 <div class="main">
-    <div class="wrapper">
+    <div class="wrapper main__wrapper">
         <section class="photo-information">
-            <img src="assets/avatar.jpg" alt="myphoto">
-            <p>Denis Anishchenko</p>
-        </section>
-        <section class="contacts">
-            <div class="contacts__content">
-                <ul class="contacts__list">
-                    <li>Coutry: Belarus</li>
-                    <li>City: Minsk</li>
-                    <li>Email: denisanishenko@gmail.com</li>
-                    <li>GitHub (https://github.com/Denishilo)</li>
-                    <li>Discord</li>
-                    <li>Phone +375-29-149-35-48 (A1)</li>
-                </ul>
+            <div class="info">
+                <h1>Denis Anishchenko</h1>
+                <h2 class="active_text">STUDENT THE ROLLING SCOPES SCHOOL</h2>
+                <div class="contacts__content">
+                    <ul class="contacts__list">
+                        <li >Minsk, Belarus</li>
+                        <li >Email: denisanishenko@gmail.com</li>
+                        <li >GitHub (https://github.com/Denishilo)</li>
+                        <li >Discord</li>
+                        
+                    </ul>
+                </div>
             </div>
-
+            <div class="info__avatar">
+                <img src="assets/avatar.jpg" alt="myphoto" class="avatar">
+            </div>
         </section>
         <section class="about-myself">
             <div class="about__content">
+                <h2>ABOUT MYSELF</h2>
                 <p class="about-myself_text">
                     My goal is to move forward, it so happened that working as a civil engineer over past couples of years has led me to a dead end. The psychological crisis, professional crisis and financial crisis prompted me to study something new and and progressive.There hasn't been a day in the last few months for me to forget about my new goal - to be a programmer. Even now, late evening, after repairing the apartment and spending time with my family, I sit and study. My environment says that I'm punctual and tactful, diligent and scrupulous, prudent and easily find contact with people.
                 </p>
             </div>
         </section>
-        <section class="skills">
+        <section class="skills__code">
             <div class="skills__content">
+                <h2>SKILLS</h2>
                 <ul class="skills__list">
                     <li>HTML5, CSS, JavaScript Basics</li>
                     <li>Git, GitHub</li>
                     <li>VS Code</li>
                 </ul>
             </div>
-        </section>
-        <section class="code">
             <div class="code__content">
+                <h2>CODE</h2>
                 <p class="code_text"><pre>function solution(number){
                     let sum = 0;
                     for (let i=1; i < number; i++)
@@ -75,6 +80,7 @@
         </section>
         <section class="education">
             <div class="education__content">
+                <h2>EDUCATION</h2>
                 <ul class="education__list" >
                     <li>University: Belarusian National Technical University, civil engineer</li>
                     <li>Courses:HTML&CSS and JavaScript by [Alexandr Luschenko](https://itgid.info/) (in progress)
@@ -82,16 +88,14 @@
                     <li></li>
                 </ul>
             </div>
-        </section>
-        <section class="english">
             <div class="english__info">
+                <h2>ENGLISH</h2>
                 <p class="english_level">
                     English level - A2
                 </p>
             </div>
         </section>
     </div>
-
 </div>
 <footer class="footer" >
     <div class="wrapper">
