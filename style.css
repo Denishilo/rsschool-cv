@@ -118,8 +118,80 @@ a{
 }
 .skills__code{
     display: flex;
-    justify-content: space-between;
+    
 }
 .education{
     display: flex;
 }
+
+.skills__content{
+    width: 50%;
+}
+.skills__item{
+    padding-bottom: 1.5rem;
+    position: relative;
+}
+.skills__item::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left:-35px;
+    top: 0px;
+}
+.skills__item:nth-child(1):before{
+    background-image: url(assets/jsnew.svg);
+}
+.skills__item:nth-child(2):before{
+    background-image: url(assets/gitnew.svg);
+}
+.skills__item:nth-child(3):before{
+    background-image: url(assets/vscode.svg);
+}
+.education__item{
+    padding-bottom: 1.5rem;
+    position: relative;
+}
+.education__item::before{
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    left:-35px;
+    top: 0px;
+}
+.education__item:nth-child(1)::before{
+    background-image: url(assets/univer.svg);
+}
+.education__item:nth-child(2)::before{
+    background-image: url(assets/courses.svg);
+}
+.education__content{
+    width: 50%;
+}
+
+.footer__content{
+    
+    padding-top: 2rem;
+    display: flex;
+    justify-content:space-between;
+}
+.footer__rsschool{
+    width: 100px;
+    height: 40px;
+    background-image: url(assets/rs_school_js.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.footer__github{
+    width: 40px;
+    height: 40px;
+    background-image: url(assets/github.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+

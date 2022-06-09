@@ -61,29 +61,26 @@
             <div class="skills__content" id="Skills">
                 <h2>SKILLS</h2>
                 <ul class="skills__list">
-                    <li>HTML5, CSS, JavaScript Basics</li>
-                    <li>Git, GitHub</li>
-                    <li>VS Code</li>
+                    <li class="skills__item" >HTML5, CSS, JavaScript Basics</li>
+                    <li class="skills__item">Git, GitHub</li>
+                    <li class="skills__item">VS Code</li>
                 </ul>
             </div>
             <div class="code__content" id="Code">
                 <h2>CODE</h2>
-                <p class="code_text"><pre>function solution(number){
-                    let sum = 0;
-                    for (let i=1; i <number; i++)
-                    if ((i% 3==0) || (i%5==0)) {
-                      sum +=i; 
-                    }
-                    return sum;
-                  } <pre></p>
+                <pre class="code_text">
+const calculate=(...x)=>(...y)=> {
+    return [].concat(x,y).reduce((a,b)=>a+b,0)
+     }
+                </pre>
             </div>
         </section>
         <section class="education">
             <div class="education__content" id="Education">
                 <h2>EDUCATION</h2>
                 <ul class="education__list" >
-                    <li>University: Belarusian National Technical University, civil engineer</li>
-                    <li>Courses: HTML&CSS and JavaScript by Alexandr Luschenko</li>
+                    <li class="education__item" >University: Belarusian National Technical University, civil engineer</li>
+                    <li class="education__item">Courses: HTML&CSS and JavaScript by Alexandr Luschenko</li>
                     <li></li>
                 </ul>
             </div>
@@ -99,11 +96,10 @@
 <footer class="footer" >
     <div class="wrapper">
         <div class="footer__content">
-            <ul class="footer__content__navigation">
-                <li class="footer__list"></li>
-                <li class="footer__list"></li>
-                <li class="footer__list"></li>
-            </ul>
+            <a target="_blank" class="footer__rsschool" href="https://rs.school/js/"></a>
+            <a target="_blank" class="footer__github" href="https://github.com/Denishilo"></a>
+            <p>2022</p>
+
         </div>
     </div>
 </footer>
